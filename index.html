@@ -1,0 +1,92 @@
+<!DOCTYPE html>                                                                                 
+    <html lang="en">                                                                                
+    <head>                                                                                          
+      <meta charset="UTF-8">  
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">                                                                      
+      <title>To Do List</title>                             
+      <link rel="stylesheet" href="style.css">                                                      
+    </head>   
+
+    <body>                                                                                          
+                                                                     
+      <header class="header-container">                                                             
+        <h1>To Do List</h1>                                                                         
+      </header>  
+      
+      <div class="layout">
+      <aside class="tab-todo">
+        <h2>Add a New Task</h2>
+
+        <form class="todo-form">
+            <div class="form">
+                <label for="nama">Title</label>
+                <input type="text" id="nama" name="title" required>
+            </div>
+
+            <div class="form">
+                <label for="desc">Description</label>
+                <input type="text" id="desc" name="description" required>
+            </div>
+
+            <div class="form">
+                <label for="dl">Deadline</label>
+                <input type="date" id="dl" input="deadline" required>
+            </div>
+
+            <button type="submit" class="subut">Add Task</button>
+        </form>
+      </aside>
+
+      <main class="mainscrn">
+        <h2>Your Tasks</h2>
+                                                                  
+          <details class="todo" open>                                                               
+            <summary class="todo-sum">                                                              
+              <div class="task-header">                                                             
+                <input type="checkbox" id="task-1" class="task-checkbox" aria-label="Mark As Done">                                                                                         
+                <label for="task-1" class="task-name">Tugas PWeb 1A</label>                         
+              </div>                                                                                
+              <span class="click-hint">▼</span>                                                     
+            </summary>                                                                              
+            <div class="todo-details">                                                              
+              <p><strong>Description:</strong> Buat web to do list dengan html dan css</p>            
+              <p><strong>Deadline:</strong> 14 September 2026</p>                                   
+            </div>                                                                                  
+          </details>                                                                                
+                                                                                                                                                                      
+          <details class="todo" open>                                                               
+            <summary class="todo-sum">                                                              
+              <div class="task-header">                                                             
+                <input type="checkbox" id="task-2" class="task-checkbox" aria-label="Mark As Done">                                                                                         
+                <label for="task-2" class="task-name">Tugas PWeb 1B</label>                         
+              </div>                                                                                
+              <span class="click-hint">▼</span>                                                     
+            </summary>                                                                              
+            <div class="todo-details">                                                              
+              <p><strong>Deskripsi:</strong> Kerjain beberapa css games dari ppt</p>                
+              <p><strong>Deadline:</strong> 14 September 2026</p>                                   
+            </div>                                                                                  
+          </details>                                                                                
+                                                                  
+          <details class="todo" open>                                                               
+            <summary class="todo-sum">                                                              
+              <div class="task-header">                                                             
+                <input type="checkbox" id="task-3" class="task-checkbox" aria-label="Mark As Done">                                                                                         
+                <label for="task-3" class="task-name">Tugas 1 KKA</label>                           
+              </div>                                                                                
+              <span class="click-hint">▼</span>                                                     
+            </summary>                                                                              
+            <div class="todo-details">                                                              
+              <p><strong>Deskripsi:</strong> Kerjain tugas 2 dengan algoritma UCS, BFS, dan DFS</p> 
+              <p><strong>Deadline:</strong> 14 September 2026</p>                                   
+            </div>                                                                                  
+          </details>                                                                                
+        </main>                                                                                     
+      </div>     
+
+      <footer class="app-footer">                                                                   
+        <p>2026 Pandutama; Tugas Pemrograman Web</p>                                  
+      </footer>
+                                                                                                    
+    </body>                                                                                         
+    </html>           
