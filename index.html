@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="darkreader-lock">
+  <meta name="color-scheme" content="light">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header-container">
+    <h1>To Do List</h1>
+    <button type="button" id="toggle-theme" class="btn-theme">Dark Mode</button>
+  </header>
+
+  <div class="layout">
+    <aside class="tab-todo">
+      <h2>Add a New Task</h2>
+
+      <form class="todo-form">
+        <div class="form">
+          <label for="nama">Title</label>
+          <input type="text" id="nama" name="title" required>
+        </div>
+
+        <div class="form">
+          <label for="desc">Description</label>
+          <input type="text" id="desc" name="description" required>
+        </div>
+
+        <div class="form">
+          <label for="dl">Deadline</label>
+          <input type="date" id="dl" name="deadline" required>
+        </div>
+
+        <button type="submit" class="subut">Add Task</button>
+      </form>
+    </aside>
+
+    <main class="mainscrn">
+      <h2>Your Tasks</h2>
+      <div id="todo-list"></div>
+    </main>
+  </div>
+
+  <footer class="app-footer">
+    <p>&copy; 2026 Pandutama | Tugas Pemrograman Web</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
