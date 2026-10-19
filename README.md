@@ -1,4 +1,4 @@
-# [E02a] The Style Warrior
+# [E04] The Iron Citadel
 
 ### Identitas
 
@@ -10,14 +10,10 @@ Kelas : Pemrograman Web A
 
 ### Deskripsi 
 
-Tugas 3, menambahkan fitur web storage, media capture, dan juga service worker
+Tugas 4, migrasi dari HTML ke PHP, menu bar dengan opsi shared dan personal, membuat data dummy di data.sql, dan implementasi CRUD
 
-<img width="1920" height="928" alt="Screenshot 2026-10-05 at 15-48-59 To Do List" src="https://github.com/user-attachments/assets/4627bb1c-a93d-4591-a0dc-f376d297fcbf" />
+<img width="1919" height="928" alt="Screenshot 2026-10-19 at 19-16-15 To Do List - Personal   Shared" src="https://github.com/user-attachments/assets/defe97ec-3fcf-4a3d-bdcb-f454b851b028" />
+<img width="1919" height="928" alt="Screenshot 2026-10-19 at 19-26-02 To Do List - Personal   Shared" src="https://github.com/user-attachments/assets/a95baaf5-e88d-4b4a-bc0b-63b1f7006d5a" />
+<img width="1919" height="928" alt="Screenshot 2026-10-19 at 19-20-26 To Do List - Personal   Shared" src="https://github.com/user-attachments/assets/5a2ebb0a-6efe-4663-9d41-5ecd4336e1d7" />
+<img width="1919" height="928" alt="Screenshot 2026-10-19 at 19-16-22 To Do List - Personal   Shared" src="https://github.com/user-attachments/assets/18570deb-36e6-47cf-b0a7-880799c52102" />
 
-<img width="1920" height="1033" alt="Screenshot 2026-10-05 at 15-52-14 To Do List" src="https://github.com/user-attachments/assets/4d8fc6c8-71b7-49bf-af84-3336f23d4793" />
-
-<img width="1920" height="946" alt="Screenshot 2026-10-05 at 15-52-30 To Do List" src="https://github.com/user-attachments/assets/fb7cd36b-30e7-400c-a5bb-8c70ca449fae" />
-
-<img width="1920" height="929" alt="Screenshot_2026-10-05_15-53-03" src="https://github.com/user-attachments/assets/a7397c60-d462-42e4-ae99-052dd586bbc6" />
-
-<img width="1920" height="1080" alt="Screenshot_2026-10-05_15_59_06" src="https://github.com/user-attachments/assets/3dddad7d-5cf6-438d-88a0-f912f2442f18" />
